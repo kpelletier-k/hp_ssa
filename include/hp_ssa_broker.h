@@ -3,10 +3,10 @@
 
 #include "broker.h"
 
-class HpSsaBroker : public Broker{
-
-public:
-    HpSsaBroker();
-};
+// class HpSsaBroker : public Broker{
+//
+// public:
+//     HpSsaBroker();
+// };
 
 #endif //HP_SSA_HP_SSA_BROKER_H

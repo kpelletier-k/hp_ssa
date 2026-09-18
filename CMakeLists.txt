@@ -13,6 +13,7 @@ project(hp_ssa CXX)
 
 create_static_lib(
         src/hp_ssa.cpp
+        src/hp_ssa_settings.cpp
 )
 
 depends(GIT_REPOSITORY https://github.com/kpelletier-k/broker.git
