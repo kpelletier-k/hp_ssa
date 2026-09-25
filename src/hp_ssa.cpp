@@ -29,5 +29,5 @@ void HpSSA::_log_default_settings() const{
     Console::warning(name + ": missing settings. Please edit new field create on database." );
 }
 
-void HpSSA::_session_open(const std::shared_ptr<BrokerSession>& session){}
-void HpSSA::_session_close(const std::shared_ptr<BrokerSession>& session){}
+void HpSSA::_on_session_open(const std::shared_ptr<BrokerSessionS>& session){}
+void HpSSA::_on_session_close(const std::shared_ptr<BrokerSessionS>& session){}

@@ -15,8 +15,8 @@ protected:
     HpSsaSettings _settings_null() override;
     HpSsaSettings _settings_duplication(const std::list<HpSsaSettings>& settings_list) override;
 
-    void _session_open(const std::shared_ptr<BrokerSession>& session) override;
-    void _session_close(const std::shared_ptr<BrokerSession>& session) override;
+    void _on_session_open(const std::shared_ptr<BrokerSessionS>& session) override;
+    void _on_session_close(const std::shared_ptr<BrokerSessionS>& session) override;
 private:
     static const HpSsaSettings _default_settings;
     void _log_default_settings() const;
